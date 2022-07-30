@@ -10,8 +10,8 @@ const Main = () => {
         <div class='project-wrapper'>
           <h2 class='section-title dark-blue-text'>Projects</h2>
 
-          <Project />
           <Project2 />
+          <Project />
           <Project3 />
         </div>
       </div>

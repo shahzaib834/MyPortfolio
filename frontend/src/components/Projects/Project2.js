@@ -1,17 +1,17 @@
 import React from 'react';
+import image from '../../assets/projectImages/project1/shopit_logo.png';
 
 const Project2 = () => {
   return (
     <div class='row'>
       <div class='col-lg-4 col-sm-12'>
         <div class='project-wrapper__text load-hidden'>
-          <h3 class='project-wrapper__text-title'>Shop it Store</h3>
+          <h3 class='project-wrapper__text-title'>Shop-it Store</h3>
           <div>
             <p class='mb-4'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi neque, ipsa animi maiores repellendus distinctio aperiam
-              earum dolor voluptatum consequatur blanditiis inventore debitis
-              fuga numquam voluptate ex architecto itaque molestiae.
+              An e-commerce website that enables us to shop any item from the
+              store and track it to the delivery. Shop-it has a responsive
+              design with several features. App is made using MERN Technology.
             </p>
           </div>
           <a
@@ -42,7 +42,7 @@ const Project2 = () => {
               data-tilt-max-glare='0.5'
               class='thumbnail rounded js-tilt'
             >
-              <img alt='Project' class='img-fluid' src='assets/project.jpg' />
+              <img alt='Project' class='img-fluid' src={image} />
             </div>
           </a>
         </div>

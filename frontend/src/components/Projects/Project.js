@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/projectImages/project2/brain-removebg-preview.png';
 
 const Project = () => {
   return (
@@ -8,10 +9,9 @@ const Project = () => {
           <h3 class='project-wrapper__text-title'>Face Recognition App</h3>
           <div>
             <p class='mb-4'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi neque, ipsa animi maiores repellendus distinctio aperiam
-              earum dolor voluptatum consequatur blanditiis inventore debitis
-              fuga numquam voluptate ex architecto itaque molestiae.
+              A Face Recognition app that uses an AI-integrated API (Clarifai).
+              Responsive UI web app that allows selecting an image and the API
+              will tell where the face is in the image.
             </p>
           </div>
           <a
@@ -42,7 +42,7 @@ const Project = () => {
               data-tilt-max-glare='0.5'
               class='thumbnail rounded js-tilt'
             >
-              <img alt='Project' class='img-fluid' src='assets/project.jpg' />
+              <img alt='Project' class='img-fluid' src={image} />
             </div>
           </a>
         </div>
