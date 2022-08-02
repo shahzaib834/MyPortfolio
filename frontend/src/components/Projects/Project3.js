@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../../assets/projectImages/project3/facebook_cover_photo_1.png';
 
 const Project3 = () => {
   return (
@@ -16,7 +17,7 @@ const Project3 = () => {
             rel='noreferrer'
             target='_blank'
             class='cta-btn cta-btn--hero'
-            href='#!'
+            href='https://shahzaib834.github.io/ProShop/'
           >
             See Live
           </a>
@@ -32,15 +33,29 @@ const Project3 = () => {
       </div>
       <div class='col-lg-8 col-sm-12'>
         <div class='project-wrapper__image load-hidden'>
-          <a rel='noreferrer' href='#!' target='_blank'>
+          <a
+            rel='noreferrer'
+            href='https://github.com/shahzaib834/ProShop'
+            target='_blank'
+          >
             <div
               data-tilt
               data-tilt-max='4'
               data-tilt-glare='true'
               data-tilt-max-glare='0.5'
               class='thumbnail rounded js-tilt'
+              style={{
+                height: '200px',
+
+                width: '600px',
+              }}
             >
-              <img alt='Project' class='img-fluid' src='assets/project.jpg' />
+              <img
+                alt='Project'
+                class='img-fluid'
+                src={image}
+                style={{ height: '200px', width: '600px' }}
+              />
             </div>
           </a>
         </div>

@@ -18,7 +18,7 @@ const Project = () => {
             rel='noreferrer'
             target='_blank'
             class='cta-btn cta-btn--hero'
-            href='#!'
+            href='https://shahzaib834.github.io/FaceRecognition/'
           >
             See Live
           </a>
@@ -34,15 +34,29 @@ const Project = () => {
       </div>
       <div class='col-lg-8 col-sm-12'>
         <div class='project-wrapper__image load-hidden'>
-          <a rel='noreferrer' href='#!' target='_blank'>
+          <a
+            rel='noreferrer'
+            href='https://github.com/shahzaib834/FaceRecognition'
+            target='_blank'
+          >
             <div
               data-tilt
               data-tilt-max='4'
               data-tilt-glare='true'
               data-tilt-max-glare='0.5'
               class='thumbnail rounded js-tilt'
+              style={{
+                height: '200px',
+                background: 'linear-gradient(89deg, #ff5edf 0%, #04c8de 100%)',
+                width: '600px',
+              }}
             >
-              <img alt='Project' class='img-fluid' src={image} />
+              <img
+                alt='Project'
+                class='img-fluid'
+                src={image}
+                style={{ height: '200px' }}
+              />
             </div>
           </a>
         </div>

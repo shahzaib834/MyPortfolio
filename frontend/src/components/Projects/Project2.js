@@ -18,7 +18,7 @@ const Project2 = () => {
             rel='noreferrer'
             target='_blank'
             class='cta-btn cta-btn--hero'
-            href='#!'
+            href='https://shahzaib834.github.io/Shop-It/'
           >
             See Live
           </a>
@@ -34,15 +34,29 @@ const Project2 = () => {
       </div>
       <div class='col-lg-8 col-sm-12'>
         <div class='project-wrapper__image load-hidden'>
-          <a rel='noreferrer' href='#!' target='_blank'>
+          <a
+            rel='noreferrer'
+            href='https://github.com/shahzaib834/Shop-It'
+            target='_blank'
+          >
             <div
               data-tilt
               data-tilt-max='4'
               data-tilt-glare='true'
               data-tilt-max-glare='0.5'
               class='thumbnail rounded js-tilt'
+              style={{
+                height: '200px',
+                width: '600px',
+                background: 'rgba(0,0,0,0.8)',
+              }}
             >
-              <img alt='Project' class='img-fluid' src={image} />
+              <img
+                alt='Project'
+                class='img-fluid'
+                src={image}
+                style={{ height: '180px' }}
+              />
             </div>
           </a>
         </div>
