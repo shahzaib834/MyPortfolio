@@ -22,13 +22,7 @@ const About = () => {
           <div class='col-md-6 col-sm-12'>
             <div class='about-wrapper__info load-hidden'>
               <p class='about-wrapper__info-text'>
-                A highly motivated and self-driven MERN Stack developer.
-                Building beautiful and responsive web apps for quite some time
-                now. A proactive and fast-learning individual seeking more
-                better opportunities for professional experience that will allow
-                me to develop and expand my ability, knowledge, skills, and
-                experience to help the company achieve its business goals of the
-                organization.
+                Results-driven Full Stack Developer with 3+ years of experience in designing, developing, and deploying scalable web applications using modern technologies including React, Angular, Next.js, Node.js, NestJS, PostgreSQL, MySQL, and MongoDB. Adept at building responsive, user-centric solutions and optimizing system performance. Recognized for being a fast learner, problem solver, and proactive collaborator, with a strong focus on delivering business value through clean, efficient, and maintainable code. Seeking opportunities to leverage my expertise to drive innovation and contribute to organizational success.
               </p>
 
               <span class='d-flex mt-3'>
