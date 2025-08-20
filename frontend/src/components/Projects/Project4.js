@@ -2,7 +2,7 @@ const Project4 = () => {
   return (
     <div class='row'>
       <div class='project-wrapper__text load-hidden'>
-        <h3 class='project-wrapper__text-title'> AI Tools Hub — Curated AI Tool Directory</h3>
+        <h3 class='project-wrapper__text-title'> AI Tools Hub</h3>
         <div>
           <p class='mb-4'>
             <div id='prixite-ai-tools-hub' aria-labelledby='prixite-title'>
@@ -14,7 +14,7 @@ const Project4 = () => {
               </header>
 
               <p>
-                AI Tools Hub by Prixite provides a comprehensive platform for
+                AI Tools Hub provides a comprehensive platform for
                 browsing and discovering AI-powered tools tailored to a wide
                 variety of domains—from content generation to web development
                 and healthcare. It allows users to seamlessly navigate across
