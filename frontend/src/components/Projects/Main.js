@@ -3,6 +3,7 @@ import Project2 from './Project2';
 import Project3 from './Project3';
 import Project4 from './Project4';
 import Project5 from './Project5';
+import Project6 from './Project6';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
           <Project3 />
           <Project4 />
           <Project5 />
+          <Project6 />
         </div>
       </div>
     </section>
